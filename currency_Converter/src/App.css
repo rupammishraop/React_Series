@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: url(https://t3.ftcdn.net/jpg/04/34/58/54/360_F_434585463_zpdtTpTEbqQFfsp6RVEW6IIxEM9dHf86.jpg) */
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+
+}
+
+.currencyConvertorApp {
+    border: 3px solid rgb(255, 255, 255);
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.206);
+    border-radius: 20px;
+    position: absolute;
+}
+
+.currencyConvertorApp:hover {
+    transform: scale(1.1);
+    transition-duration: .5s;
+    transition-delay: 0s;
+}
+.swapBtn{
+    position: absolute;
+    left: 45%;
+    top : 40%;
+    width: 5rem;
+    height: 3rem;
+    background-color: rgb(106, 106, 239);
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ .convert{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    /* padding: 0.5rem; */
+} 
+
+.mainBtn{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+}
+.mainBtn div{
+    width: 100%;
+    padding: 0.3rem 1rem;
+}

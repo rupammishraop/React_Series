@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  align-items: center;
+  margin: auto auto;
+}
+.box{
+  border: 2px solid white;
+  height: 300px;
+  width: 400px;
+}

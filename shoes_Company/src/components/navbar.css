@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ html {
+    font-size: 62.5%;
+ }
+ 
+ body {
+    background-color: #222;
+ }
+ 
+ .header {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    width: 100%;
+    padding: 1rem;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    border-radius: 4rem;
+ }
+ 
+ .logo {
+    height: 7rem;
+    width: 7rem;
+    background-image: url("D:\React_Series\shoes_Company\src\shoesLogo.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+ }
+ 
+ .search {
+    width: 30rem;
+    height: 4rem;
+    border: 0.2rem solid black;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 4rem;
+    margin-top: 1.2rem;
+    margin-left: 20rem;
+ }
+ 
+ .navbar ul {
+    list-style: none;
+    margin-top: 2rem;
+ }
+ 
+ .navbar ul li {
+    display: inline;
+ }
+ 
+ .navbar ul li a {
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 2rem;
+    color: black;
+ }
+ 
+ .nav-icon {
+    /* border: 2px solid black; */
+    margin-right: 7rem;
+ }
+ 
+ #menu {
+    margin-top: 1.7rem;
+    display: none;
+ }
+ 
+ #close {
+    display: none;
+ }
+ 
+ @media (max-width : 62em) {
+ 
+    .header {
+       position: relative;
+    }
+ 
+    #menu {
+       display: block;
+       font-size: 4rem;
+       border: 1px solid black;
+       cursor: pointer;
+       border-radius: 1rem;
+    }
+ 
+    .navbar {
+ 
+       width: 100vw;
+       height: 100vh;
+       position: absolute;
+       top: 10rem;
+       left: 0;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       transition: all 0.5s linear;
+       opacity: 0;
+       visibility: hidden;
+       pointer-events: none;
+    }
+ 
+    .navbar ul {
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       color: white;
+    }
+ 
+    .navbar ul li a {
+       font-size: 4rem;
+       color: white;
+       margin: 1rem;
+    }
+ }
